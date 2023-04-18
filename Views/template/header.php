@@ -69,7 +69,7 @@
                             <a class="nav-link active" href="<?php echo base_url(); ?>subcripciones">
                                 <div class="sb-nav-link-icon"><i class="fas fa-shopping-cart fa-lg"></i>
                                 </div>
-                                Subcripciones
+                                Suscripción
                             </a>
                         <?php } ?>
                         <a class="nav-link active" href="<?php echo base_url(); ?>estudiantes">
