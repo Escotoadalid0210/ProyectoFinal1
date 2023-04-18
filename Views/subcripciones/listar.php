@@ -2,7 +2,7 @@
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h5 class="text-center">Subcripciones Disponibles</h5>
+            <h5 class="text-center">Suscripciones Disponibles</h5>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="table-responsive">
