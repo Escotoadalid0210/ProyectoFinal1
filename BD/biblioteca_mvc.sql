@@ -178,3 +178,17 @@ SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
+/*IMPORTANTE*/
+/*OJO OJO OJO*/
+
+/*Agregar usuarios a la base de datos*/
+
+
+INSERT INTO `usuarios` (`id`, `usuario`, `nombre`, `clave`, `rol`, `estado`, `membresiaEstado`) VALUES
+(1, 'admin', 'Francisco Escoto', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', '1', 1,1),
+(2, 'naju', 'Naju Vega ramirez', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', '2', 0,1),
+(3, 'ana', 'ana', '24d4b96f58da6d4a8512313bbd02a28ebf0ca95dec6e4c86ef78ce7f01e788ac', '2', 1,1),
+(4, 'maria', 'maria', '94aec9fbed989ece189a7e172c9cf41669050495152bc4c1dbf2a38d7fd85627', '1', 1,1);
+
+/*usuario de administrador USUARIO: admin CONTRASEÑA:admin*/
+/*usuario de empleado USUARIO: ana CONTRASEÑA:ana*/

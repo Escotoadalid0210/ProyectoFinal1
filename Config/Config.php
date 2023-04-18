@@ -3,6 +3,6 @@
     const HOST = "localhost";
     const BD = "biblioteca1_mvc";
     const DB_USER = "root";
-    const PASS = "1995";
+    const PASS = "";
     const CHARSET = "charset=utf8";
 ?>
